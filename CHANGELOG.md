@@ -1,5 +1,12 @@
 # Redux Framework Changelog
 
+## 3.5.6.4
+* Added:    `ajax_save` arg for fields.  Setting to false will reload the options panel when the set option has changed.
+* Fixed:    #2532 - Spinner field arrow spacing off when dev_mode set to false due to missing `!important` CSS suffix.
+
+## 3.5.6.3
+* Added:    `autocomplete` arg to text field.  This is FALSE by default.
+
 ## 3.5.6.2
 * Fixed:    Color RGBA field missing name_suffix.  Will now work in repeater extension.
 
